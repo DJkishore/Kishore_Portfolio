@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kishore Kumar's personal portfolio showcasing skills, projects, and contact information." />
+  <title>Kishore Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">K<span>K</span>.</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Hi, I'm <span>Kishore Kumar</span></h1>
+          <h2>Frontend Developer <span class="divider">|</span> Aspiring Java Developer</h2>
+          <p class="hero-description">I build clean, responsive, and user-friendly web experiences. I enjoy turning ideas into practical digital solutions and learning new technologies.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore My Work <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/DJkishore" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative developer illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
+            <div class="code-lines">
+              <p><b>01</b> <span class="pink">const</span> developer = {</p>
+              <p><b>02</b> &nbsp; name: <span class="green">'Kishore'</span>,</p>
+              <p><b>03</b> &nbsp; skills: [</p>
+              <p><b>04</b> &nbsp;&nbsp; <span class="green">'HTML'</span>, <span class="green">'CSS'</span>,</p>
+              <p><b>05</b> &nbsp;&nbsp; <span class="green">'JavaScript'</span></p>
+              <p><b>06</b> &nbsp; ],</p>
+              <p><b>07</b> &nbsp; curious: <span class="blue">true</span></p>
+              <p><b>08</b> };</p>
+            </div>
+            <div class="code-footer"><span>●</span> Always learning, always building</div>
+          </div>
+          <div class="floating-tag tag-html">&lt;/&gt; HTML</div>
+          <div class="floating-tag tag-css">✦ CSS</div>
+          <div class="floating-tag tag-js">JS</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Building my path in <span>technology.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-mark">KK<span>.</span></div>
+          <div class="about-text">
+            <p>I'm a Computer Science Engineering graduate interested in frontend development and software engineering. I like creating simple interfaces that solve real problems and continuously improving my technical skills.</p>
+            <p>My learning journey includes web technologies, databases, and Java. I value teamwork, adaptability, and clear communication while working toward building reliable applications.</p>
+            <div class="about-facts">
+              <div><strong>Education</strong><span>B.E. Computer Science</span></div>
+              <div><strong>Focus</strong><span>Web Development</span></div>
+              <div><strong>Mindset</strong><span>Learn · Build · Improve</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2>My <span>skills.</span></h2>
+          <p class="section-subtitle">Technologies I use and continue to develop.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon orange">5</div><h3>HTML5</h3><p>Semantic page structure</p></article>
+          <article class="skill-card"><div class="skill-icon blue-icon">✦</div><h3>CSS3</h3><p>Responsive layouts and styling</p></article>
+          <article class="skill-card"><div class="skill-icon yellow">JS</div><h3>JavaScript</h3><p>Interactive web experiences</p></article>
+          <article class="skill-card"><div class="skill-icon cyan">⚛</div><h3>ReactJS</h3><p>Component-based UI basics</p></article>
+          <article class="skill-card"><div class="skill-icon red">J</div><h3>Java</h3><p>Object-oriented programming</p></article>
+          <article class="skill-card"><div class="skill-icon purple">▤</div><h3>SQL / MySQL</h3><p>Database queries and data</p></article>
+          <article class="skill-card"><div class="skill-icon green-icon">⌘</div><h3>Git & GitHub</h3><p>Version control and projects</p></article>
+          <article class="skill-card"><div class="skill-icon pink-icon">✧</div><h3>Laravel / PHP</h3><p>Backend development basics</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects I've <span>worked on.</span></h2>
+          <p class="section-subtitle">A few projects that reflect my interests and learning.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-rail"><span class="visual-symbol">⌁</span><span class="visual-label">AI · IoT · PYTHON</span></div>
+            <div class="project-content"><p class="project-number">PROJECT 01</p><h3>Smart Rail Maintenance System</h3><p>A concept for monitoring rail conditions using acoustic, vibration, and temperature sensor data to support maintenance decisions.</p><div class="tags"><span>Python</span><span>IoT</span><span>AI</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-dj"><span class="visual-symbol">♫</span><span class="visual-label">EVENTS · BOOKING</span></div>
+            <div class="project-content"><p class="project-number">PROJECT 02</p><h3>DJ Booking System</h3><p>A web-based booking experience to present DJ services and help customers enquire about event bookings.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div><a class="project-link" href="https://github.com/DJkishore/DJ_Booking" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-service"><span class="visual-symbol">⌂</span><span class="visual-label">SERVICE · WEB APP</span></div>
+            <div class="project-content"><p class="project-number">PROJECT 03</p><h3>Chimney Service Booking</h3><p>A service booking application concept for customers to explore services and submit booking requests.</p><div class="tags"><span>React</span><span>CSS</span><span>PHP</span><span>MySQL</span></div></div>
+          </article>
+        </div>
+        <p class="project-note">Tip: Add your own GitHub repository links to each project card before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project in mind?<br><span>Let's talk.</span></h2>
+          <p class="contact-intro">I'm open to entry-level opportunities, collaborations, and conversations about technology.</p>
+          <div class="contact-detail"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:your.email@example.com">your.email@example.com</a></div></div>
+          <div class="contact-detail"><span class="contact-icon">⌘</span><div><small>GITHUB</small><a href="https://github.com/DJkishore" target="_blank" rel="noopener noreferrer">github.com/DJkishore</a></div></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required />
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea>
+          <button class="btn btn-primary submit-btn" type="submit">Prepare Email <span>↗</span></button>
+          <p class="form-note" id="formNote">This form opens your email app with the message filled in. It does not send messages to a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="#home">K<span>K</span>.</a><p>Designed & built by Kishore Kumar · <span id="year"></span></p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
